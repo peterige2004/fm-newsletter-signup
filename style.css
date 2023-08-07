@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background: hsl(235, 18%, 26%);
+    box-sizing: border-box;
+}
+
+.flex{
+    margin: 10px;
+    font-size: 16px;
+}
+
+picture {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    display: flex;
+    margin-right: 20px;
+}
+
+#email{
+    font-weight: bold;
+}
+
+.i{
+    border-radius: 20px;
+}
+
+span{
+    margin-right: 55%;
+}
+
+h4{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: hsl(235, 18%, 26%);
+}
+
+label{
+    margin-right: 60%;
+    font-family: bold;
+}
+
+input{
+    padding: 20px;
+    width: 85%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.body{
+    margin: 40px;
+}
+
+.main{
+    text-align: center;
+    display: inline-flex;
+    gap: 1rem;
+    background: white;
+    margin-left: 200px;
+    height: 600px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 890px;
+}
+
+.line{
+    display: flex;
+}
+
+.text{
+    margin: 3px;
+    gap: 1rem;
+    font-size: 16px;
+}
+
+.img{
+    margin: 3px;
+}
+
+button{
+    border: none;
+    text-decoration: none;
+    background:  hsl(234, 29%, 20%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 93%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: hsl(4, 100%, 67%);
+    background: linear-gradient(hsl(4, 100%, 67%), hsl(1, 97%, 70%));
+    transition: 0.3s;
+}
+
+.dispaly{
+    text-align: center;
+    width: 20%;
+    margin: 25%;
+    margin-top: 40px;
+    padding: 50px;
+    background: white;
+    border-radius: 30px;
+    height: 400px;
+    margin-left: 35%;
+}
+.ch{
+    font-weight: 700;
+    width: 40px;
+    padding-top: 20px;
+    right: 30px;
+    
+}
+
+h2{
+    font-size: 40px;
+    color: hsl(235, 18%, 26%);
+}
